@@ -464,9 +464,14 @@ img{
     .arrowMenu.open{
         transform:translateY(240%);
     }
+    .apps{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
 }
 
 @media only screen and (min-width:2000px){
+
     .arrowMenu{
         margin-right: 480px;
     }
@@ -476,5 +481,10 @@ img{
 
     .wifiMenu.open{
         transform: translateY(25%);
+    }
+
+    .apps{
+        margin-top: 150px;
+        margin-left: 100px;
     }
 }
