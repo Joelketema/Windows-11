@@ -343,8 +343,9 @@ img{
 /*wifi menu*/
 
 .main{
+    display: none;
     padding: 10px;
-    display: grid;
+    /* display: grid; */
     /* background-color: red; */
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(4,1fr);
