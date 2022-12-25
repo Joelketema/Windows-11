@@ -202,9 +202,14 @@ i{
     transform: translateY(150%);
 }
 
-.wifiMenu.open,.arrowMenu.open{
+.wifiMenu.open{
     transform: translateX(0);
 }
+
+.arrowMenu.open{
+    transform:translateY(0%);
+}
+
 
 
 .arrowMenu{
@@ -450,4 +455,26 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (min-width:1400px){
+    .arrowMenu{
+        transform: translateY(1000%);
+    }
+    .arrowMenu.open{
+        transform:translateY(240%);
+    }
+}
+
+@media only screen and (min-width:2000px){
+    .arrowMenu{
+        margin-right: 480px;
+    }
+    .arrowMenu.open{
+        transform:translateY(500%);
+    }
+
+    .wifiMenu.open{
+        transform: translateY(25%);
+    }
 }
